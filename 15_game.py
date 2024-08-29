@@ -5,7 +5,7 @@ import sys
 # Инициализация Pygame
 pygame.init()
 
-BORDER_SIZE = 4
+BORDER_SIZE = 7
 FONT_SIZE = {3: 80, 4: 70, 5: 60, 6: 50, 7: 40, 8: 30}.get(BORDER_SIZE, 50)
 
 # Определение параметров окна
@@ -19,7 +19,7 @@ COLOR_BLOCK = (200, 200, 200)
 COLOR_FILL = (255, 255, 255)
 
 # Радиус круглого угла фишки
-RADIUS = 20
+RADIUS = 15
 
 # Создание окна
 screen = pygame.display.set_mode((WIDTH, HEIGHT))

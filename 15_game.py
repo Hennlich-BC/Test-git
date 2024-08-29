@@ -19,7 +19,7 @@ COLOR_BLOCK = (200, 200, 200)
 COLOR_FILL = (255, 255, 255)
 
 # Радиус круглого угла фишки
-RADIUS = 15
+RADIUS = 20
 
 # Создание окна
 screen = pygame.display.set_mode((WIDTH, HEIGHT))

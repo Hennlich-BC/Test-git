@@ -5,6 +5,9 @@ import sys
 # Инициализация Pygame
 pygame.init()
 
+
+
+
 BORDER_SIZE = 4
 FONT_SIZE = {3: 80, 4: 70, 5: 60, 6: 50, 7: 40, 8: 30}.get(BORDER_SIZE, 50)
 
